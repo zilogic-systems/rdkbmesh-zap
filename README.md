@@ -1,2 +1,2 @@
-# rdkbmesh-zap-
+# rdkbmesh-zap
 zaero rdkb and rdkb easymesh plugin
