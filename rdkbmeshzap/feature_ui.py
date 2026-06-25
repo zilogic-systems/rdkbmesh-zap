@@ -19,7 +19,7 @@ from playwright.sync_api import expect, sync_playwright, TimeoutError as Playwri
 
 import time
 
-class RdkbUi(DatabaseModule):
+class FeatureUi(DatabaseModule):
     def __init__(self):
         zi_logger.print_context()
         DatabaseModule.__init__(self)
