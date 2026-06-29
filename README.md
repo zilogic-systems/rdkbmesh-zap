@@ -25,6 +25,7 @@ git clone https://github.com/zilogic-systems/rdkbmesh-zap.git
 ### 2. Generate .whl file
 
 ```
+cd rdkbmesh-zap
 python3 -m build
 ```
 

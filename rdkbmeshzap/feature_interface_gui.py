@@ -41,7 +41,7 @@ class FeatureInterfaceGUI(DatabaseModule,
                  index: str,
                  ssid: str):
         """
-        To set SSDI in the GUI Application
+        To set SSID in the GUI Application
         """
         zi_logger.print_context()
         self._create_ui_obj(device)
@@ -56,7 +56,7 @@ class FeatureInterfaceGUI(DatabaseModule,
                  device: str,
                  index: str) -> str:
         """
-        To set SSDI in the GUI Application
+        To set SSID in the GUI Application
         """
         zi_logger.print_context()
         self._create_ui_obj(device)
@@ -65,7 +65,7 @@ class FeatureInterfaceGUI(DatabaseModule,
                     device: str,
                     index: str) -> str:
         """
-        To read ssid from marinadb in controller
+        To read ssid from mariadb in controller
         """
         zi_logger.print_context()
         self._create_ui_obj(device)
